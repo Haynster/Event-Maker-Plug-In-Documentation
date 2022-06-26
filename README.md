@@ -65,21 +65,30 @@ event.action(values); event.action(values); event.action(values);
 
 > *Zoom the Screen*
 > `screen.zoom(zoomamount,duration)`
+> 
 > *Shake the Screen*
 > `screen.shake(duration,screenshakeX,screenshakeY)`
+> 
 > *Create a Variable*
 > `variable.create(name,value)`
+> 
 > *Show an object*
 > `transform.show(objectID)`
+> 
 > *Move an object to a position*
 > `transform.movepoint(objectID,duration,X,Y)`
+> 
 > *Destroy an Object*
 > `object.destroy(objectID)`
+> 
 > *Move an object by a X and Y*
 > `transform.moveby(objectID,duration,X,Y)`
+> 
 > *Add to a Variable*
 > `variable.add(variable,amount)`
+> 
 > *Hide an object*
 > `transform.hide(objectID)`
+> 
 > *Get a variable (This will broadcast the value of the variable)*
 > `variable.get(broadcastname)`
