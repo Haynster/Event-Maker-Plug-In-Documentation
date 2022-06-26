@@ -65,13 +65,18 @@ event.action(values); event.action(values); event.action(values);
 
 > *Create a Variable*
 > `variable.create(name,value)`
+
 > *Destroy an Object*
 > `object.destroy(objectID)`
+
 > *Add to a Variable*
 > `variable.add(variable,amount)`
+
 > *Zoom the Screen*
 > `screen.zoom(zoomamount,duration)`
+
 > *Shake the Screen*
 > `screen.shake(duration,screenshakeX,screenshakeY)`
+
 > *Get a variable (This will broadcast the value of the variable)*
 > `variable.get(broadcastname)`
