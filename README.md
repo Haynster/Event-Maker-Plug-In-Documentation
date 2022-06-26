@@ -60,20 +60,25 @@ event.action(values); event.action(values); event.action(values);
 > *To Clear the Log*
 > `console.clear()`
 
-## Libraries
+# Libraries
 ---
 **You can create libraries with the events you have created**
 
 > Broadcast `Create Library`
+
 > Enter the Library titie
+
 > Next it will show all events in your project
+
 > Select the ones you want by typing the names with "/" between
+
 > Copy the text and youre done!
 
 ---
 **Installing Libraries**
 
 > Broadcast `Install Library` With the value being the library data
+
 > Thats it!
 
 ## EVENT REFERENCES
