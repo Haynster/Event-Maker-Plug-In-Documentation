@@ -40,14 +40,14 @@ event.action(values); event.action(values); event.action(values);
 ### To use it you can broadcast
 ---
 > *To Log a string*
-> Broadcast: Log
-> Value: Whatever String
+- Broadcast: Log
+- Value: Whatever String
 
 > *To Clear the Log*
-> Broadcast: Clear Log
+- Broadcast: Clear Log
 
 > *To Display the Log*
-> Broadcast: Display Log
+- Broadcast: Display Log
 
 ### You can also do this with event code
 ---
