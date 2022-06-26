@@ -5,6 +5,7 @@
 
 # Creating an Event
 ![](https://raw.githubusercontent.com/Haynster/Event-Maker-Plug-In-Documentation/main/70FB8F11-6927-4D05-8DF9-9BE5D7254CD4.png)
+---
 
 - First you need to create an array with 2 values
 - In value 0, Type in the title of the event
@@ -24,6 +25,14 @@ event.action(values);
 ```
 event.action(values); event.action(values); event.action(values);
 ```
+
+# Sending an Event
+![](https://raw.githubusercontent.com/Haynster/Event-Maker-Plug-In-Documentation/main/E3294A45-90A9-4773-B423-724C62E0701D.png)
+---
+
+- Before sending an event you need to create it on the plugin
+- Broadcast `Set Event` and the value should be the Array you set up before
+- To start an event Broadcast `Event` With the event title
 
 ## The Console Log
 **This plugin features a console log**
@@ -50,3 +59,5 @@ event.action(values); event.action(values); event.action(values);
 
 > *To Clear the Log*
 > `console.clear()`
+
+## EVENT REFERENCES
